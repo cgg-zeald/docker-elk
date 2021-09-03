@@ -1,7 +1,7 @@
 
 # Running
 
-This project was configured to ingest only apache logs using logstash with grok configured as well as another configuration to get the `clientip` and convert it to GeoIP.
+This project was configured to ingest only apache logs using logstash with grok, it has an additional configuration to get the `clientip` and convert it to GeoIP.
 
 In order to get the mapping without issue here are the following steps needed to be done.
 
